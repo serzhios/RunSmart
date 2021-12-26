@@ -8,26 +8,26 @@
             width: 100%;
         }
     }
-    &__official {        
-        color: $main-colorW;       
+    &__official {
+        color: $main-colorW;
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
         span {
-            font-family: 'MuseoModerno' ,sans-serif;
+            font-family: 'MuseoModerno', sans-serif;
             display: block;
             font-size: 18px;
         }
     }
     &__phone {
         display: block;
-        color: $main-colorW;    
+        color: $main-colorW;
         font-weight: 700;
-        font-size: 18px; 
+        font-size: 18px;
         &:hover {
             color: #FFF;
             text-decoration: none;
-        }      
+        }
     }
     &__contacts {
         display: flex;

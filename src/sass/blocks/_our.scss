@@ -1,6 +1,6 @@
 .oour {
     background-color: $main-colorWw;
-    padding-top: 70px;    
+    padding-top: 70px;
     &__icons {
         text-align: center;
         margin-top: 65px;
@@ -18,18 +18,17 @@
         align-items: center;
         // max-width: 269px;
         // max-height: 269px;
-        img {           
+        img {
             display: block;
             margin: 0 auto;
             width: 70px;
             height: 70px;
         }
-       
     }
     &__title {
         margin-top: 35px;
         font-weight: 700;
-        font-size: 18px;        
+        font-size: 18px;
     }
     &__subtitle {
         margin-top: 20px;
@@ -41,10 +40,10 @@
         text-align: center;
         // height: 269px;
         a {
-            color: $main-colorR; 
+            color: $main-colorR;
             text-transform: uppercase;
             text-decoration: underline;
             text-decoration: none;
         }
     }
-  }
+}

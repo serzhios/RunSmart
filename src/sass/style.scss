@@ -7,15 +7,15 @@
 @import 'blocks/title';
 @import 'blocks/forms';
 @import 'blocks/carusel';
-
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
-    
 }
-   
+
 .container {
     max-width: 950px;
     margin: 0 auto;
-}    
-
-    
+}
