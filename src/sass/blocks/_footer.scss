@@ -1,6 +1,9 @@
                         .footer {
                             height: 630px;
                             position: relative;
+                            .animate__backInDown {
+                                --animate-duration: 2s;
+                            }
                             &__info {
                                 position: absolute;
                                 top: 0;

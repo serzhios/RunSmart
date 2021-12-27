@@ -46,4 +46,13 @@
             text-decoration: none;
         }
     }
+    .heart,
+    .cup,
+    .shoe {
+        animation: heartbeat 5s ease infinite;
+        -webkit-animation: heartbeat 5s ease infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
 }
